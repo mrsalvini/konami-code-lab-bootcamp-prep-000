@@ -21,7 +21,7 @@ function init() {
       i++;
       
       if (i === codes.length) {
-        alert("victory is ours")
+        alert("victory is ours");
       }
     } else { i = 0; }
   }
