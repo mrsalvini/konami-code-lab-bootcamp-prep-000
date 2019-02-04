@@ -19,9 +19,10 @@ function init() {
     if (key === codes[i]) {
       i++;
       
-      if (i === codes.length) {
+      if (i === codes.length - 1) {
         alert("victory is ours");
         console.log("victory");
+        i = 0;
       }
     } else { i = 0; }
   }
