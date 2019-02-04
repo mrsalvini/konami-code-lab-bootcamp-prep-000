@@ -18,5 +18,8 @@ function init() {
     const key = e.key;
   }
   
-  if (key === codes[seq])
+  if (key === codes[i]) {
+    i++;
+    
+  }
 }
