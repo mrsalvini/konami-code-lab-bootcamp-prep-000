@@ -21,6 +21,7 @@ function init() {
       
       if (i === codes.length) {
         alert("victory is ours");
+        console.log("victory");
       }
     } else { i = 0; }
   }
