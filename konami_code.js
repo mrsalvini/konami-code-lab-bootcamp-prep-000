@@ -12,5 +12,9 @@ const codes = [
 ];
 
 function init() {
-  // your code here
+  let seq = 0;
+  
+  function onKeyDownHandler(e) {
+    const key = e.key;
+  }
 }
