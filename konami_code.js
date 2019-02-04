@@ -12,9 +12,11 @@ const codes = [
 ];
 
 function init() {
-  let seq = 0;
+  let i = 0;
   
   function onKeyDownHandler(e) {
     const key = e.key;
   }
+  
+  if (key === codes[seq])
 }
