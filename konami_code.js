@@ -18,12 +18,12 @@ function init() {
     const key = e.key;
     if (key === codes[i]) {
       i++;
-      
-    }
-    
-    if (i === codes.length) {
+          if (i === codes.length) {
       alert("victory is ours")
     }
+
+    }
+    
   }
   
   if (key === codes[i]) {
