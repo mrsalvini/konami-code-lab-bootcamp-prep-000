@@ -16,7 +16,6 @@ function init() {
   
   function onKeyDownHandler(e) {
     const key = e.key;
-    console.log(key);
     if (key === codes[i]) {
       i++;
       
@@ -24,7 +23,6 @@ function init() {
         alert("victory is ours");
       }
     } else { i = 0; }
-    console.log(is);
   }
   
   document.body.addEventListener("keydown", onKeyDownHandler);
