@@ -24,6 +24,7 @@ function init() {
         alert("victory is ours");
       }
     } else { i = 0; }
+    console.log(is);
   }
   
   document.body.addEventListener("keydown", onKeyDownHandler);
